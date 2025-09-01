@@ -7,10 +7,10 @@
 </p>
 <p align="center">
 <a href="https://github.com/HeistTeam1//Heistmusicbot/starfires"><img src="https://img.shields.io/github/stars/HeistTeam1/Heistmusicbot?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
-<a href="https://github.com/kustbots//frozenvcmusicbot/network/members"> <img src="https://img.shields.io/github/forks/prashantsahlot/frozenvcmusicbot?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
-<a href="https://github.com/kustbots//frozenvcmusicbot/blob/master/LICENSE"> <img src="https://img.shields.io/badge/License-Frozen%20Protect-blueviolet?style=for-the-badge" alt="License" /> </a>
+<a href="https://github.com/HeistTeam1//Heistmusicbot/network/members"> <img src="https://img.shields.io/github/forks/HeistTeam1/Heistmusicbot?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
+<a href="https://github.com/HeistTeam1//Heistmusicbot/blob/master/LICENSE"> <img src="https://img.shields.io/badge/License-Heist%20Protect-blueviolet?style=for-the-badge" alt="License" /> </a>
 <a href="https://www.python.org/"> <img src="https://img.shields.io/badge/Written%20in-Python-orange?style=for-the-badge&logo=python" alt="Python" /> </a>
-<a href="https://github.com/kustbots/frozenvcmusicbot/commits/main"> <img src="https://img.shields.io/github/last-commit/prashantsahlot/frozenvcmusicbot?color=blue&logo=github&logoColor=green&style=for-the-badge" /></a>
+<a href="https://github.com/HeistTeam1/Heistmusicbot/commits/main"> <img src="https://img.shields.io/github/last-commit/HeistTeam1/Heistmusicbot?color=blue&logo=github&logoColor=green&style=for-the-badge" /></a>
 </p>
 
 ---
