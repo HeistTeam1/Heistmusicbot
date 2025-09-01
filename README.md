@@ -21,7 +21,7 @@
 - 💥 Fully open source and free.
 - ☁️ Can run easily on **Render**, or your VPS.
 - 🌱 Easy to set up with one-click deploy buttons.
-- ❄️ Uses custom FrozenGram fork for enhanced stability.
+- ❄️ Uses custom Heist Team fork for enhanced stability.
 
 ---
 
@@ -30,8 +30,7 @@
 
 <p align="center">
 <a href="https://render.com/deploy?repo=https://github.com/HeistTeam1/Heistmusicbot"><img src="https://img.shields.io/badge/-Deploy%20to%20Render-blueviolet?style=for-the-badge&logo=render"></a>
-
-<a href="https://heroku.com/deploy?template=https://github.com/kustbots/frozenvcmusicbot"><img src="https://img.shields.io/badge/-Deploy%20to%20Heroku-purple?style=for-the-badge&logo=heroku"></a>
+<a href="https://heroku.com/deploy?template=https://github.com/HeistTeam1/Heistmusicbot"><img src="https://img.shields.io/badge/-Deploy%20to%20Heroku-purple?style=for-the-badge&logo=heroku"></a>
 </p>
 
 
@@ -40,7 +39,7 @@
 ## ⚡ One-click Setup
 
 <p align="center">
-<a href="https://github.com/kustbots/frozenvcmusicbot/fork"><img src="https://img.shields.io/badge/-Fork%20Repo-black?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/HeistTeam1/Heistmusicbot/fork"><img src="https://img.shields.io/badge/-Fork%20Repo-black?style=for-the-badge&logo=github"></a>
 </p>
 
 ---
