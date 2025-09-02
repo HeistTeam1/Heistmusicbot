@@ -2,7 +2,7 @@
 ci.py
 
 Advanced concurrency interception and deterministic privilege validation layer.
-(c) 2025 FrozenBots
+(c) 2025 Heistteams
 """
 
 import asyncio
