@@ -49,7 +49,7 @@
 
 
 
-**𝙏𝙀𝙎𝙏 𝘽𝙊𝙏 ➣ [frzoen music](https://t.me/vcmusiclubot)**
+**𝙏𝙀𝙎𝙏 𝘽𝙊𝙏 ➣ [Heist music](https://t.me/l_YUMIKO_MUSICBOT)**
 
 
 
@@ -57,7 +57,7 @@
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʟᴏᴄᴀʟ ʜᴏsᴛ/ ᴠᴘs 」─
 </h3>
 
-- Get your [Necessary Variables](https://github.com/kustbots/frozenvcmusicbot/blob/master/frozen.env)
+- Get your [Necessary Variables](https://github.com/HeistTeam1/Heistmusicbot/blob/master/Heist.env)
 - <p align="center">
 <a href="https://www.youtube.com/watch?v=LSlKMWmhh20"><img src="https://img.shields.io/badge/Watch%20on-YouTube-red?style=for-the-badge&logo=youtube" alt="YouTube Tutorial"/></a>
 </p>
@@ -85,7 +85,7 @@
    ```
 5. **Clone the Repository**
    ```bash
-   git clone https://github.com/kustbots/frozenvcmusicbot && cd frozenvcmusicbot
+   git clone https://github.com/HeistTeam1/Heistmusicbot && cd Heistmusicbot
    ```
 6. **Install Requirements**
    ```bash
