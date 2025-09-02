@@ -378,7 +378,7 @@ async def start_handler(_, message):
     support_group = os.getenv("SUPPORT_GROUP", "https://t.me/Heist_Bots")
     start_animation = os.getenv(
         "START_ANIMATION",
-        "https://files.catbox.moe/0x3jgb.mp4"
+        "https://files.catbox.moe/qx641y.mp4"
     )
 
     caption = (
