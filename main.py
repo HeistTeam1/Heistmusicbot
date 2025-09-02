@@ -1511,7 +1511,7 @@ async def restart_bot():
     except Exception as e:
         logger.error(f"Error calling local restart endpoint: {e}")
 
-async def frozen_check_loop(bot_username: str):
+async def heist_check_loop(bot_username: str):
     while True:
         try:
             # 1) send the check command
