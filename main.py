@@ -892,7 +892,7 @@ async def update_progress_caption(
 
 
 
-LOG_CHAT_ID = "@frozenmusiclogs"
+LOG_CHAT_ID = "@yumimusiclogs"
 
 async def fallback_local_playback(chat_id: int, message: Message, song_info: dict):
     playback_mode[chat_id] = "local"
@@ -1496,7 +1496,7 @@ threading.Thread(target=run_http_server, daemon=True).start()
 
 logger = logging.getLogger(__name__)
 
-frozen_check_event = asyncio.Event()
+heist_team_event = asyncio.Event()
 
 async def restart_bot():
     port = int(os.environ.get("PORT", 8080))
@@ -1515,8 +1515,8 @@ async def frozen_check_loop(bot_username: str):
     while True:
         try:
             # 1) send the check command
-            await assistant.send_message(bot_username, "/frozen_check")
-            logger.info(f"Sent /frozen_check to @{bot_username}")
+            await assistant.send_message(bot_username, "/heist_team")
+            logger.info(f"Sent /heist_team to @{bot_username}")
 
             # 2) poll for a reply for up to 30 seconds
             deadline = time.time() + 30
@@ -1525,9 +1525,9 @@ async def frozen_check_loop(bot_username: str):
             while time.time() < deadline:
                 async for msg in assistant.get_chat_history(bot_username, limit=1):
                     text = msg.text or ""
-                    if "frozen check successful ✨" in text.lower():
+                    if "heist check successful ✨" in text.lower():
                         got_ok = True
-                        logger.info("Received frozen check confirmation.")
+                        logger.info("Received heist team check confirmation.")
                         break
                 if got_ok:
                     break
@@ -1535,7 +1535,7 @@ async def frozen_check_loop(bot_username: str):
 
             # 3) if no confirmation, restart
             if not got_ok:
-                logger.warning("No frozen check reply—restarting bot.")
+                logger.warning("No heist check reply—restarting bot.")
                 await restart_bot()
 
         except Exception as e:
@@ -1565,8 +1565,8 @@ if __name__ == "__main__":
         sys.exit(1)
 
     me = bot.get_me()
-    BOT_NAME = me.first_name or "Frozen Music"
-    BOT_USERNAME = me.username or os.getenv("BOT_USERNAME", "vcmusiclubot")
+    BOT_NAME = me.first_name or "Yumi Music"
+    BOT_USERNAME = me.username or os.getenv("BOT_USERNAME", "l_YUMIKO_MUSICBOT")
     BOT_LINK = f"https://t.me/{BOT_USERNAME}"
 
     logger.info(f"✅ Bot Name: {BOT_NAME!r}")
@@ -1574,7 +1574,7 @@ if __name__ == "__main__":
     logger.info(f"✅ Bot Link: {BOT_LINK}")
 
     # start the frozen‑check loop (no handler registration needed)
-    asyncio.get_event_loop().create_task(frozen_check_loop(BOT_USERNAME))
+    asyncio.get_event_loop().create_task(heist_check_loop(BOT_USERNAME))
 
     if not assistant.is_connected:
         logger.info("Assistant not connected; starting assistant client...")
