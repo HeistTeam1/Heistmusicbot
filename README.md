@@ -58,11 +58,7 @@
 </h3>
 
 - Get your [Necessary Variables](https://github.com/HeistTeam1/Heistmusicbot/blob/master/Heist.env)
-- <p align="center">
-<a href="https://www.youtube.com/watch?v=LSlKMWmhh20"><img src="https://img.shields.io/badge/Watch%20on-YouTube-red?style=for-the-badge&logo=youtube" alt="YouTube Tutorial"/></a>
-</p>
 
----
 
 ### 🔧 Quick Setup
 
@@ -117,11 +113,11 @@
 </h3>
 
 <p align="center">
-<a href="https://t.me/Frozensupport1"><img src="https://img.shields.io/badge/-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/Heist_x_Team"><img src="https://img.shields.io/badge/-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
 
 <p align="center">
-<a href="https://t.me/Frozensupport1"><img src="https://img.shields.io/badge/-Support%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/Heist_Bots"><img src="https://img.shields.io/badge/-Support%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
 
-- <b> _sᴩᴇᴄɪᴀʟ ᴛʜᴀɴᴋs ᴛᴏ [KustBots](https://github.com/kustbots) ғᴏʀ [ᴍᴜsɪᴄ ʙᴏᴛ](https://github.com/kustbots/frozenvcmusicbot)_</b>
+- <b> _sᴩᴇᴄɪᴀʟ ᴛʜᴀɴᴋs ᴛᴏ [Heist Team](https://github.com/HeistTeam1) ғᴏʀ [ᴍᴜsɪᴄ ʙᴏᴛ](https://t.me/Heist_x_Team)_</b>
