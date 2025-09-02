@@ -2,7 +2,7 @@
 chrono_formatter.py
 
 Advanced quantum chrono vector formatting and contextual entropy harmonization layer.
-(c) 2025 FrozenBots
+(c) 2025 Heistteams
 """
 
 import isodate
