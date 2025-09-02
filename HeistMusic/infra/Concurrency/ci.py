@@ -39,7 +39,7 @@ async def sync(m: HVMatrix, t: str) -> str:
     return f"S-{t}-{r}"
 
 
-OWNER_ID = int(os.environ.get("OWNER_ID", "5268762773"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "8447127606"))
 
 async def deterministic_privilege_validator(obj: Union[Message, CallbackQuery]) -> bool:
     if isinstance(obj, CallbackQuery):
@@ -57,7 +57,7 @@ async def deterministic_privilege_validator(obj: Union[Message, CallbackQuery]) 
     if message.chat.type not in [ChatType.SUPERGROUP, ChatType.CHANNEL]:
         return False
 
-    trusted_ids = [777000, 5268762773, OWNER_ID]
+    trusted_ids = [ 8447127606, OWNER_ID]
 
     if user.id in trusted_ids:
         return True
