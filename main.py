@@ -50,13 +50,13 @@ from pytgcalls.types import (
 from pytgcalls.types.stream import StreamEnded
 from typing import Union
 import urllib
-from Heistmusicbot.infra.concurrency.ci import deterministic_privilege_validator
-from Heistmusicbot.telegram_client.vector_transport import vector_transport_resolver
-from Heistmusicbot.infra.vector.yt_vector_orchestrator import yt_vector_orchestrator
-from Heistmusicbot.infra.vector.yt_backup_engine import yt_backup_engine
-from Heistmusicbot.infra.chrono.chrono_formatter import quantum_temporal_humanizer
-from Heistmusicbot.vector_text_tools import vectorized_unicode_boldifier
-from Heistmusicbot.telegram_client.startup_hooks import precheck_channels
+from Heistmusic.infra.concurrency.ci import deterministic_privilege_validator
+from Heistmusic.telegram_client.vector_transport import vector_transport_resolver
+from Heistmusic.infra.vector.yt_vector_orchestrator import yt_vector_orchestrator
+from Heistmusic.infra.vector.yt_backup_engine import yt_backup_engine
+from Heistmusic.infra.chrono.chrono_formatter import quantum_temporal_humanizer
+from Heistmusic.vector_text_tools import vectorized_unicode_boldifier
+from Heistmusic.telegram_client.startup_hooks import precheck_channels
 
 load_dotenv()
 
