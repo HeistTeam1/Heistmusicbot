@@ -1,27 +1,22 @@
-Heist services:
+# render.yaml
+services:
   - type: web
     name: Heist-music-bot
     env: python
-    plan: free
     buildCommand: "pip install -r requirements.txt"
-    startCommand: "python main.py"
+    startCommand: "uvicorn app.main:app --host 0.0.0.0 --port $PORT"
     envVars:
-      - key: API_HASH
+      - key: BOT_TOKEN
         sync: false
       - key: API_ID
         sync: false
-      - key: ASSISTANT_SESSION
+      - key: API_HASH
         sync: false
-      - key: BOT_TOKEN
+      - key: SESSION
         sync: false
-      - key: OWNER_ID
+      - key: SUDO_USERS
         sync: false
-      - key: MongoDB_url
+      - key: WEBHOOK_URL
         sync: false
-      - key: UPDATES_CHANNEL
+      - key: SECRET_TOKEN
         sync: false
-      - key: SUPPORT_GROUP
-        sync: false
-
-
-
