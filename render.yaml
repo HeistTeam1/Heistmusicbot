@@ -1,4 +1,4 @@
-services:
+Heist services:
   - type: web
     name: Heist-music-bot
     env: python
